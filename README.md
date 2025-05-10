@@ -24,9 +24,9 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 │   ├── resources
 │   │   ├── MainView.fxml
 │   │   ├── application.css
-│   │   └── images (if you have any default images)
+│   │   └── images
 │   │
-│   └── lib (if using external libraries, e.g., JavaFX SDK) 
+│   └── lib 
 │
 └── SmartWardrobeApp.jar
 
