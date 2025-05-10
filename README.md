@@ -1,12 +1,12 @@
 # Smart Wardrobe JavaFX Application
 Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Upload your clothing items, generate outfits with color filters, and save your favorite combinations for quick reference.
 
-📝 System Requirements:
+## 📝 System Requirements:
 - Java Development Kit (JDK) 17 or above
 - JavaFX SDK 17 or above (if not bundled in the JAR)
 - An IDE like IntelliJ IDEA or Eclipse if running from source
 
-📁 Project Structure:
+## 📁 Project Structure:
 │
 ├── src
 │   ├── com.wardrobe
@@ -30,7 +30,7 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 │
 └── SmartWardrobeApp.jar
 
-🚀 How to Run the Application:
+## 🚀 How to Run the Application:
 Option 1: Using the JAR File (Recommended)
 - Open your terminal (Command Prompt, PowerShell, or Terminal).
 - Navigate to the directory where SmartWardrobeApp.jar is located.
@@ -45,7 +45,7 @@ Option 2: Running from Source (IDE Required)
 - Make sure JavaFX SDK is properly configured in Project Settings.
 - Right-click on MainView.java → Run.
 
-💡 How to Use the Application:
+## 💡 How to Use the Application:
 
 1️⃣ Upload Wardrobe Item:
 - Click "Upload Wardrobe Item".
