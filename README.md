@@ -56,14 +56,14 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 
 ## 💡 How to Use the Application
 
-1️⃣ Upload Wardrobe Item:
+### 1️⃣ Upload Wardrobe Item:
 - Click "Upload Wardrobe Item".
 - Choose a category: Shirt, Pants, or Shoes.
 - Select an image from your file system.
 - Enter the color of the item (you will be prompted in a pop-up).
 - The item is added to your virtual wardrobe.
 
-2️⃣ Generate an Outfit:
+### 2️⃣ Generate an Outfit:
 - Click "Generate an Outfit".
 - You will be prompted to enter a color filter (red, blue, green, etc.) or select "Cancel" to skip filtering.
 - If a matching color is found, an outfit is displayed in a pop-up window with options to:
@@ -71,7 +71,7 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 - Generate Again: Creates a new outfit combination.
 - If no items match the selected color, you will see an alert: "No [color] pieces in your closet!"
 
-3️⃣ View Saved Outfits:
+### 3️⃣ View Saved Outfits:
 - Click "View Saved Outfits".
 - A pop-up window displays all your saved outfits, arranged side by side.
 - Each outfit is shown with the shirt, pants, and shoes in vertical order.
