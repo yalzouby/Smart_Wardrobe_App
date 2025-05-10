@@ -47,7 +47,7 @@ smart-wardrobe/
 ### Alternatively, you can find the JAR in:
   target/SmartWardrobeApp.jar
 
-## ▶️ Running the Application
+## 🚀 How to Run the Application:
 #### To launch the application, use one of the following commands:
 
 ### If JavaFX is bundled with your JDK:
@@ -55,29 +55,6 @@ java -jar target/SmartWardrobeApp.jar
 ### If JavaFX is not bundled:
 java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar target/SmartWardrobeApp.jar
 #### Replace /path/to/javafx/lib with the path to your JavaFX SDK.
-
-
-
-
-
-
-
-
-
-## 🚀 How to Run the Application:
-Option 1: Using the JAR File (Recommended)
-- Open your terminal (Command Prompt, PowerShell, or Terminal).
-- Navigate to the directory where SmartWardrobeApp.jar is located.
-- Run the application with the command:
-java -jar SmartWardrobeApp.jar
-
-If JavaFX is not bundled in the JAR, use:
-java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar SmartWardrobeApp.jar
-
-Option 2: Running from Source (IDE Required)
-- Open the project in your IDE (IntelliJ IDEA or Eclipse).
-- Make sure JavaFX SDK is properly configured in Project Settings.
-- Right-click on MainView.java → Run.
 
 ## 💡 How to Use the Application:
 
@@ -90,7 +67,7 @@ Option 2: Running from Source (IDE Required)
 
 2️⃣ Generate an Outfit:
 - Click "Generate an Outfit".
-- You will be prompted to enter a color filter (red, blue, green, etc.) or select "No" to skip filtering.
+- You will be prompted to enter a color filter (red, blue, green, etc.) or select "Cancel" to skip filtering.
 - If a matching color is found, an outfit is displayed in a pop-up window with options to:
 - Save Outfit: Saves the outfit for future reference.
 - Generate Again: Creates a new outfit combination.
