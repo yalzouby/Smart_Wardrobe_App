@@ -76,4 +76,10 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 - A pop-up window displays all your saved outfits, arranged side by side.
 - Each outfit is shown with the shirt, pants, and shoes in vertical order.
 
+## 🔍 Troubleshooting
+### 1. If you get a module not found error, make sure your --module-path is correctly configured.
+### 2. Ensure Maven is installed and accessible:
+mvn -v
+### 3. If images do not display correctly, confirm that they are in the resources/com/wardrobe/images directory.
+
 
