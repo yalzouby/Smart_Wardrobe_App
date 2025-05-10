@@ -46,6 +46,7 @@ Option 2: Running from Source (IDE Required)
 - Right-click on MainView.java → Run.
 
 💡 How to Use the Application:
+
 1️⃣ Upload Wardrobe Item:
 - Click "Upload Wardrobe Item".
 - Choose a category: Shirt, Pants, or Shoes.
