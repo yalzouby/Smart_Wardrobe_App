@@ -33,51 +33,25 @@ smart-wardrobe/
 └── target
     └── SmartWardrobeApp.jar (Will be generated after build)
 
-    smart-wardrobe/
-├── pom.xml
-├── src
-│   └── main
-│       ├── java
-│       │   └── com.wardrobe
-│       │       ├── App.java                  --> Main Application Entry Point
-│       │       ├── MainViewController.java   --> Main Controller for UI interactions
-│       │       ├── Outfit.java               --> Outfit object containing Shirt, Pants, Shoes
-│       │       ├── OutfitGenerator.java      --> Logic to generate random outfits
-│       │       ├── Pants.java                --> Pants item class
-│       │       ├── Shirt.java                --> Shirt item class
-│       │       ├── Shoes.java                --> Shoes item class
-│       │       ├── User.java                 --> User class managing wardrobe items
-│       │       └── WardrobeItem.java         --> Abstract class for all wardrobe items
-│       └── resources
-│           └── com.wardrobe
-│               ├── MainView.fxml             --> FXML layout file
-│               └── images                    --> Default images for clothes
-│                   ├── pants 1.png
-│                   ├── shirt 1.png
-│                   ├── shoes 1.png
-│                   └── ... (more images)
-└── target
-    └── SmartWardrobeApp.jar (Will be generated after build)
-
 ## ⚙️ Building the Project
 #### Open a terminal in the root directory (smart-wardrobe) and run the following commands:
 
 ### 1. Clean and package the project:
-  mvn clean package
+    mvn clean package
 
 ### 2. Generate the executable JAR:
-  mvn javafx:run
+    mvn javafx:run
 
 ### Alternatively, you can find the JAR in:
-  target/SmartWardrobeApp.jar
+    target/SmartWardrobeApp.jar
 
 ## 🚀 How to Run the Application
 #### To launch the application, use one of the following commands:
 
 ### If JavaFX is bundled with your JDK:
-java -jar target/SmartWardrobeApp.jar
+    java -jar target/SmartWardrobeApp.jar
 ### If JavaFX is not bundled:
-java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar target/SmartWardrobeApp.jar
+    java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar target/SmartWardrobeApp.jar
 #### Replace /path/to/javafx/lib with the path to your JavaFX SDK.
 
 ## 💡 How to Use the Application
@@ -105,7 +79,7 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 ## 🔍 Troubleshooting
 ### 1. If you get a module not found error, make sure your --module-path is correctly configured.
 ### 2. Ensure Maven is installed and accessible:
-mvn -v
+    mvn -v
 ### 3. If images do not display correctly, confirm that they are in the resources/com/wardrobe/images directory.
 
 
