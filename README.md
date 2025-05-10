@@ -18,8 +18,7 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 │   │   ├── Shoes.java
 │   │   ├── WardrobeItem.java
 │   │   ├── OutfitGenerator.java
-│   │   ├── User.java
-│   │   └── Saved.java
+│   │   └──  User.java
 │   │
 │   ├── resources
 │   │   ├── MainView.fxml
