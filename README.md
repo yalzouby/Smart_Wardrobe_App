@@ -10,7 +10,7 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 │
 ├── src
 │   ├── com.wardrobe
-│   │   ├── MainView.java
+│   │   ├── App.java
 │   │   ├── MainViewController.java
 │   │   ├── Outfit.java
 │   │   ├── Shirt.java
@@ -23,7 +23,6 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 │   │
 │   ├── resources
 │   │   ├── MainView.fxml
-│   │   ├── application.css
 │   │   └── images
 │   │
 │   └── lib 
