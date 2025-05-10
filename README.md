@@ -3,7 +3,7 @@ Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Up
 
 ## 📝 System Requirements:
 
-## 🛠️ Prerequisites
+## 🛠️ Prerequisites:
 - Java JDK 11 or above (matching the Maven pom.xml configuration).
 - Maven 3.6+ for building the project.
 - JavaFX SDK 13 if not bundled with your JDK.
