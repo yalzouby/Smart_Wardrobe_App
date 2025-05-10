@@ -1,9 +1,7 @@
 # Smart Wardrobe JavaFX Application
 Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Upload your clothing items, generate outfits with color filters, and save your favorite combinations for quick reference.
 
-## 📝 System Requirements
-
-## 🛠️ Prerequisites
+## 🛠️ System Requirements
 - Java JDK 11 or above (matching the Maven pom.xml configuration).
 - Maven 3.6+ for building the project.
 - JavaFX SDK 13 if not bundled with your JDK.
