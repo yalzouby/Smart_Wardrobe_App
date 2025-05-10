@@ -2,31 +2,67 @@
 Manage your wardrobe and generate stylish outfits easily with Smart Wardrobe! Upload your clothing items, generate outfits with color filters, and save your favorite combinations for quick reference.
 
 ## 📝 System Requirements:
-- Java Development Kit (JDK) 17 or above
-- JavaFX SDK 17 or above (if not bundled in the JAR)
-- An IDE like IntelliJ IDEA or Eclipse if running from source
+
+## 🛠️ Prerequisites
+- Java JDK 11 or above (matching the Maven pom.xml configuration).
+- Maven 3.6+ for building the project.
+- JavaFX SDK 13 if not bundled with your JDK.
 
 ## 📁 Project Structure:
-│
+smart-wardrobe/
+├── pom.xml
 ├── src
-│   ├── com.wardrobe
-│   │   ├── App.java
-│   │   ├── MainViewController.java
-│   │   ├── Outfit.java
-│   │   ├── Shirt.java
-│   │   ├── Pants.java
-│   │   ├── Shoes.java
-│   │   ├── WardrobeItem.java
-│   │   ├── OutfitGenerator.java
-│   │   └──  User.java
-│   │
-│   ├── resources
-│   │   ├── MainView.fxml
-│   │   └── images
-│   │
-│   └── lib 
-│
-└── SmartWardrobeApp.jar
+│   └── main
+│       ├── java
+│       │   └── com.wardrobe
+│       │       ├── App.java                  --> Main Application Entry Point
+│       │       ├── MainViewController.java   --> Main Controller for UI interactions
+│       │       ├── Outfit.java               --> Outfit object containing Shirt, Pants, Shoes
+│       │       ├── OutfitGenerator.java      --> Logic to generate random outfits
+│       │       ├── Pants.java                --> Pants item class
+│       │       ├── Shirt.java                --> Shirt item class
+│       │       ├── Shoes.java                --> Shoes item class
+│       │       ├── User.java                 --> User class managing wardrobe items
+│       │       └── WardrobeItem.java         --> Abstract class for all wardrobe items
+│       └── resources
+│           └── com.wardrobe
+│               ├── MainView.fxml             --> FXML layout file
+│               └── images                    --> Default images for clothes
+│                   ├── pants 1.png
+│                   ├── shirt 1.png
+│                   ├── shoes 1.png
+│                   └── ... (more images)
+└── target
+    └── SmartWardrobeApp.jar (Will be generated after build)
+
+## ⚙️ Building the Project
+#### Open a terminal in the root directory (smart-wardrobe) and run the following commands:
+
+### 1. Clean and package the project:
+  mvn clean package
+
+### 2. Generate the executable JAR:
+  mvn javafx:run
+
+### Alternatively, you can find the JAR in:
+  target/SmartWardrobeApp.jar
+
+## ▶️ Running the Application
+#### To launch the application, use one of the following commands:
+
+### If JavaFX is bundled with your JDK:
+java -jar target/SmartWardrobeApp.jar
+### If JavaFX is not bundled:
+java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml -jar target/SmartWardrobeApp.jar
+#### Replace /path/to/javafx/lib with the path to your JavaFX SDK.
+
+
+
+
+
+
+
+
 
 ## 🚀 How to Run the Application:
 Option 1: Using the JAR File (Recommended)
